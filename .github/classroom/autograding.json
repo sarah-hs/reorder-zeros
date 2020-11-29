@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "basic",
+      "setup": "npm install",
+      "run": "npm test basic",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 8
+    },
+    {
+      "name": "non_digit",
+      "setup": "npm install",
+      "run": "npm test non_digit",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "non_array",
+      "setup": "npm install",
+      "run": "npm test non_array",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
